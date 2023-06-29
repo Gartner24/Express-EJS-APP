@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>
-            <%= title %>
-        </title>
+		<%- include('partials/head') %>
 	</head>
 	<body>
 		<%- include('partials/navigation')  %>
 		
-		<h1>About</h1>
+		<main class="min-h-screen 2xl:p-28 md:p-2 lg:p-2 sm:p-2 flex flex-column justify-center items-center text-center ">
+			<section>
+				<h1 class="font-extrabold text-5xl my-7">About</h1>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus voluptates id sapiente facilis eveniet quo dolorum ad eos voluptate quidem facere ratione autem explicabo natus, modi eum amet quia voluptas?
+				Ipsam animi atque eos consequuntur quaerat magni totam asperiores modi ex laudantium architecto cum temporibus nostrum possimus, fugit eius repellat nobis vel tempore consectetur maxime? Porro debitis voluptas nostrum ullam.
+				Cum sit nam aliquid maiores, tempora eligendi provident nostrum deleniti fugiat sunt necessitatibus eius assumenda saepe animi velit architecto voluptatibus repudiandae voluptates nobis quod natus id in? Soluta, atque quos?
+				Blanditiis alias sapiente fugiat incidunt possimus voluptas, culpa aspernatur perspiciatis, consequuntur odit labore quidem, modi quam! Quae aliquid veniam numquam explicabo voluptatem, dolorum, amet quasi, quis impedit quibusdam ducimus! Cum?
+				Animi esse nam laudantium accusantium eum consectetur autem inventore. Facere sunt, illum quibusdam possimus aut maxime magnam adipisci, voluptatem odio distinctio et pariatur inventore, architecto quasi quidem earum consequuntur quae.</p>
+			</section>
+		</main>
 		
 		<%- include('partials/footer')  %>
 	</body>
