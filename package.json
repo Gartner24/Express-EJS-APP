@@ -1,0 +1,26 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "My first node app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gartner24/Node-APP.git"
+  },
+  "author": "Gartner24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gartner24/Node-APP/issues"
+  },
+  "homepage": "https://github.com/Gartner24/Node-APP#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
